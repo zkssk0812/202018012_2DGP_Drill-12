@@ -31,12 +31,12 @@ def reset_world():
     game_world.add_object(boy, 1)  # 1층: 소년과 공
 
     grass = Grass()
-    game_world.add_object(grass, 0)  # 0층: 배경
+    game_world.add_object(grass, 2)  # 0층: 배경
 
     background_grass = Grass()
     background_grass.moveDraw(400, 60)
 
-    game_world.add_object(background_grass, 2)
+    game_world.add_object(background_grass, 0)
     
 
 
