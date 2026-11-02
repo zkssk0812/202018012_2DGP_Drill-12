@@ -35,6 +35,8 @@ def reset_world():
 
     background_grass = Grass()
     background_grass.moveDraw(400, 60)
+
+    game_world.add_object(background_grass, 2)
     
 
 
