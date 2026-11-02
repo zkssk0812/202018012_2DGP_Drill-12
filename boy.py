@@ -13,7 +13,7 @@ BALL_SPEED = 10  # 공이 한 프레임에 날아가는 거리
 
 class Boy:
     def __init__(self):
-        self.x, self.y = 400, 90
+        self.x, self.y = 400, 30
         self.frame = 0
         self.image = load_image('animation_sheet.png')
         self.idle_started_at = get_time()
