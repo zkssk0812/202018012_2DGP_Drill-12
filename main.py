@@ -32,6 +32,9 @@ def reset_world():
 
     grass = Grass()
     game_world.add_object(grass, 0)  # 0층: 배경
+
+    background_grass = Grass()
+    background_grass.moveDraw(400, 60)
     
 
 
